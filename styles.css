@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: lab(78.26% 21.06 -1.49);
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e4aeb9;
+}
+.navbar-brand {
+  color: #a85e6f !important;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.nav-link {
+  color: #7b4b5c !important;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #d68a9b !important;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #fbe5e8, #fff9fb);
+  color: #5e3a48;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 60%;
+  object-fit: cover;
+  border: 4px solid #f5b5c1;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.hero p {
+  font-size: 1.1rem;
+  color: #7a5565;
+}
+
+/* Secciones */
+.section-title {
+  color: #a85e6f;
+  font-weight: 700;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #f5b5c1;
+  display: block;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Tarjetas */
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+
+}
